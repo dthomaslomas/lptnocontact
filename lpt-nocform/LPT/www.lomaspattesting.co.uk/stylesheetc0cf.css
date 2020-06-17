@@ -1,0 +1,60 @@
+/* Start of CMSMS style sheet 'LPT - Navigation' */
+/********************
+MENU
+*********************/
+#menu_hori {
+	background: url(images/menu_tile.html) repeat-x;
+	width:900px;
+	height:42px;
+clear:both;
+}
+
+#menu_hori li {
+float:left;
+	text-transform:uppercase;
+list-style-type:none;
+}
+
+/** fix stupid ie bug with display:block; **/
+* html #menu_hori li a { height: 1%; } 
+* html #menu_hori li hr { height: 1%; }
+/** end fix **/
+
+/* first level links */
+div#menu_hori a {
+float:left;
+	height:28px;
+	text-decoration:none;
+	color:#CCC;
+display:block;
+	padding: 14px 17px 0 17px;
+	font-weight:bold;
+	font-size: 16px;
+	line-height: 14px;
+}
+
+/* hover state for links - level 01 */
+div#menu_hori a:hover {
+   color: #FFFFFF;
+display:block;
+}
+
+/* 
+current pages in the default Menu Manager 
+template are unclickable. This is for current page on first level 
+*/
+div#menu_hori ul h3 {
+display:block;
+color: #FFFFFF;
+   background: #7fc445 url(images/cms/menu_selected_corner.jpg) no-repeat bottom right;
+	height:28px;
+	text-decoration:none;
+display:block;
+	padding: 14px 17px 0px 17px;
+	font-weight:bold;
+	font-size: 16px;
+	line-height: 14px;
+}
+
+/* End of 'LPT - Navigation' */
+

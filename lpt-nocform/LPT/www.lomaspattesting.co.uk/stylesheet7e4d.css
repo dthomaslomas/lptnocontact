@@ -1,0 +1,378 @@
+/* Start of CMSMS style sheet 'LPT - Layout' */
+* {
+	margin:0;
+	padding:0;
+	}
+	
+body {
+	background: #000 url(images/cms/site_tile.jpg) repeat-x;
+	font-family: Arial, sans-serif;
+	}
+	
+#pagewrapper {
+	width:900px;
+	margin: 0 auto;
+	}
+	
+#logo a {
+	background: url(images/cms/logo.jpg) no-repeat;
+	display:block;
+	width:260px;
+	height:170px;
+	float:left;
+	}
+h2 {
+	text-indent: -4000px;
+	}
+
+h1 {
+font-weight:bold;
+	font-size: 22px;
+line-height: 24px;
+color:#7fc445;
+padding: 20px 0 8px 0;
+	}
+
+h3 {
+font-weight:bold;
+	font-size: 18px;
+line-height: 20px;
+color:#7fc445;
+padding: 12px 0 6px 0;
+	}
+
+h4 {
+font-weight:bold;
+	font-size: 16px;
+line-height: 18px;
+color:#7fc445;
+padding: 8px 0 4px 0;
+	}
+
+h5 {
+font-weight:bold;
+	font-size: 14px;
+line-height: 18px;
+color:#7fc445;
+padding: 8px 0 4px 0;
+	}
+
+h6 {
+font-weight:bold;
+	font-size: 14px;
+line-height: 18px;
+color:#000000;
+padding: 8px 0 24px 0;
+	}
+
+img {
+border:none;
+
+}
+
+p {
+font-weight:normal;
+	font-size: 12px;
+line-height: 15px;
+color:#000;
+padding: 0px 0 8px 0;
+}
+
+p.spacer {
+height: 300px;
+}
+
+/*LINK STYLES*/
+
+a {
+color:#000000;
+font-weight:bold;
+text-decoration:underline;
+}
+
+a:hover {
+text-decoration:none;
+}
+
+.bold {
+font-weight:bold;
+}
+	
+#telephone {
+	background: url(images/cms/telephone.jpg) no-repeat;
+	display:block;
+	width:640px;
+	height:170px;
+	float:left;
+	}
+
+#main_message {
+clear:both;
+width:900px;
+height: 345px;
+}
+
+#content_holder {
+	background-color: #cbc9ca;
+width:900px;
+}
+	
+#main {
+	width:588px;
+	background-color: #FFF;
+	float:left;
+	padding:30px;
+	}
+
+#images {
+	width:230px;
+	float:left;
+	}
+
+#text {
+	width:338px;
+	float:left;
+padding:0 0 0 20px;
+	}
+	
+#offers {
+	background: url(images/cms/special_offers_header.jpg) top left no-repeat;
+	width:212px;
+padding: 0px 20px 20px 20px;
+	float:left;
+	}
+	
+#footer {
+	width:900px;
+	color:#AAAAAA;
+	padding:14px 0px 46px 0px;
+	clear:both;
+	}
+div.clearfix {
+clear:both;
+}
+
+#main_message p {
+color:#ffffff;
+font-size:16px;
+line-height:18px;
+}
+
+#main_message .bold {
+font-weight:bold;
+}
+
+#main_message .image_text {
+display:none;
+}
+
+div.home {
+	width:900px;
+height:435px;
+	background: url(images/cms/home_main_message.jpg) no-repeat;
+}
+
+div.home p {
+	width:340px;
+	padding: 230px 0 0 546px;
+}
+
+div.about_us {
+	width:900px;
+height:435px;
+	background: url(images/cms/about_us_main_message.jpg) no-repeat;
+}
+
+div.about_us p {
+	width:400px;
+	padding: 186px 0 0 46px;
+}
+
+div.services {
+	width:900px;
+height:435px;
+	background: url(images/cms/services_main_message.jpg) no-repeat;
+}
+
+div.services p {
+	width:400px;
+	padding: 260px 0 0 46px;
+}
+
+div.no_charge {
+	width:900px;
+height:435px;
+	background: url(images/cms/no_charge_main_message.jpg) no-repeat;
+}
+
+div.no_charge p {
+	width:524px;
+	padding: 226px 0 0 334px;
+}
+
+div.loyalty_packages {
+	width:900px;
+height:435px;
+	background: url(images/cms/loyalty_packages_main_message.jpg) no-repeat;
+}
+
+div.loyalty_packages p {
+	width:420px;
+	padding: 220px 0 0 436px;
+text-align:right;
+}
+
+div.legal {
+	width:900px;
+height:435px;
+	background: url(images/cms/legal_main_message.jpg) no-repeat;
+}
+
+div.legal p {
+	width:520px;
+	padding: 220px 0 0 336px;
+text-align:right;
+}
+
+div.contact_us {
+	width:900px;
+height:435px;
+	background: url(images/cms/contact_us_main_message.jpg) no-repeat;
+}
+
+p.copyright {
+color: #AAAAAA;
+width: 450px;
+float:left;
+font-size: 11px;
+}
+
+p.links {
+color: #AAAAAA;
+width: 449px;
+float:left;
+font-size: 11px;
+text-align:right;
+}
+
+p.links a {
+color: #AAAAAA;
+text-decoration:none;
+}
+
+p.links a:hover {
+color: #FFFFFF;
+text-decoration:none;
+}
+
+p.links a:visited {
+color: #AAAAAA;
+text-decoration:none;
+}
+
+p.links a:visited:hover {
+color: #FFFFFF;
+text-decoration:none;
+}
+
+
+#text ul {
+padding: 4px 0 10px 0;
+}
+
+#text li {
+background: url(images/cms/bullet.jpg) 0px 3px no-repeat;
+font-weight:bold;
+list-style-type:none;
+padding: 0px 0px 6px 16px;
+color:#7fc445;
+font-size: 13px;
+line-height:16px;
+}
+
+#offers h2 {
+font-weight:bold;
+	font-size: 22px;
+line-height: 22px;
+color:#EEEEEE;
+padding: 10px 0 10px 0;
+text-transform:uppercase;
+	text-indent: 0px;
+	}
+
+#offers h3 {
+font-weight:normal;
+	font-size: 20px;
+line-height: 20px;
+color:#444444;
+padding: 20px 0 6px 0;
+	}
+
+#offers p {
+padding: 0px 0 20px 0;
+border-bottom: 1px dotted #444444;
+	}
+
+#images img {
+margin: 20px 0 0 0;
+}
+
+hr {
+color:#FFF;
+background-color:#ccc;
+height:1px;
+border:none;
+margin: 10px 0 4px 0;
+}
+
+p.bronze {
+font-weight:bold;
+	font-size: 18px;
+line-height: 20px;
+color:#983e1b;
+padding: 12px 0 0px 0;
+	}
+
+p.silver  {
+font-weight:bold;
+	font-size: 18px;
+line-height: 20px;
+color:#b7b5b5;
+padding: 12px 0 0px 0;
+	}
+
+p.gold  {
+font-weight:bold;
+	font-size: 18px;
+line-height: 20px;
+color:#f89f14;
+padding: 12px 0 0px 0;
+	}
+
+p.platinum {
+font-weight:bold;
+	font-size: 18px;
+line-height: 20px;
+color:#464749;
+padding: 12px 0 0px 0;
+	}
+
+/*CONTACT FORM STYLES*/
+
+div#contactform {
+margin-top:10px;
+}
+
+.picture_caption {
+padding: 4px 0 4px 0;
+font-size: 11px;
+line-height: 12px;
+font-style: italic;
+}
+
+p.top_link a {
+font-weight: normal;
+color:#666666;
+}
+/* End of 'LPT - Layout' */
+

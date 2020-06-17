@@ -1,0 +1,97 @@
+/* Start of CMSMS style sheet 'FormBuilder Default Style' */
+/* Sample FormBuilder CSS base */
+form {margin-top:0;}
+form, td, th, li { font-size: 12px}
+form div {margin-bottom:0}
+fieldset div {margin-bottom:0.5em;
+}
+fieldset div div {
+	margin-top:0.5em;
+}
+fieldset {
+border:none;
+}
+fieldset label {
+	width:100px;
+margin-top:0px;
+margin-bottom:10px;
+}
+legend {
+visibility:hidden;
+height: 0px;
+}
+textarea {
+	height: 6em
+}
+
+/* Apply this class to text/select input fields with shorter labels
+	to help alignment */
+.short-label label {float:left; width:10em}
+.short-label fieldset div input,
+.short-label fieldset div select {width:16em}
+
+/* Pretty up your Captcha image output */
+.captcha {
+	margin:0.5em 0;
+	width:100px;
+	text-align:center
+}
+.captcha img {border:1px solid #F60; margin-bottom:0.5em}
+.captcha input {width:196px; margin-top:0.5em}
+
+/* Just a bit more room for the Submit button */
+.submit {margin-top:0.5em}
+
+/* Apply this class to text/select input fields with shorter labels
+	to help alignment */
+.short-label label {float:left; width:10em}
+.short-label fieldset div input,
+.short-label fieldset div select {width:16em}
+
+/* Pretty up your Captcha image output */
+.captcha {
+	margin:0.5em 0;
+	width:100px;
+	text-align:center
+}
+.captcha img {border:1px solid #F60; margin-bottom:0.5em}
+.captcha input {width:196px; margin-top:0.5em}
+
+
+.contactform input {width: 190px; float:right;margin-bottom:10px;}
+.contactform input.checkbox {border: none;}
+.contactform label {
+	display: block;
+	float: left;
+	width: 130px;
+}
+.contactform label.label {
+	display: inline;
+	float: none;
+	width: 50px;
+	font-size: 10px;
+}
+.contactform textarea {
+font-size:12px;
+border: 1px solid #CBC9CA;
+	background-color: #ffffff;
+width: 340px;
+font-family: 'M1cregular', Arial, Helvetica, sans-serif;
+}
+
+/* Just a bit more room for the Submit button */
+.submit {
+float:right;
+}
+
+.submit input {
+width:100px;
+}
+
+.formbuilderform .message {
+font-size:12px;
+	line-height: 16px;
+	padding: 0 0 8px 0;
+}
+/* End of 'FormBuilder Default Style' */
+
